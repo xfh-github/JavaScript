@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        'use strict'
+
+   /*     new Map();
+        new Set();*/
+
+      /*  var map=new Map([['tom',100],['jack',20],['xfh',30]]);
+        var name=map.get('tom');
+        map.set('zh',123456);
+        console.log(map);
+
+        var set=new Set([3,1,1,8,8,8,6,6,6]);
+        set.add(2);
+        set.delete(1);*/
+
+      /*  var arr=[3,4,8,6];
+        for (var a in arr) {
+            console.log(a)
+        }
+        for (var b of arr) {
+            console.log(b)
+        }
+*/
+        var map=new Map([['tom',100],['jack',20],['xfh',30]]);
+        for (let x of map) {
+            console.log(x)
+        }
+        for (let x in map) {
+            console.log(x)
+        }
+
+        var set=new Set([3,1,1,8,8,8,6,6,6]);
+        for (let numbersKey in set) {
+            console.log(numbersKey)
+        }
+        for (let numbersKey of set) {
+            console.log(numbersKey)
+        }
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
